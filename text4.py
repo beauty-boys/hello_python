@@ -8,7 +8,7 @@ def read_file(file1,file2):
     book = xlwt.Workbook(encoding='utf-8')  # 创建Workbook，相当于创建Excel
     sheet1 = book.add_sheet(u'Sheet1', cell_overwrite_ok=True)
     sheet1.write(0, 1, 'x')
-    sheet1.write(0, 2, 'y')
+    sheet1.write(0, 2, 'y') 
     sheet1.write(0, 3, '角度')
     sheet1.write(0, 4, '面积')
     sheet1.write(1, 0, '数据1')
